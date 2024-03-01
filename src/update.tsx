@@ -10,7 +10,7 @@ const InitializeApp= ()=> {
         if (state.isActive) {
           // Do the download during user active app time to prevent failed download
           data = await CapacitorUpdater.download({
-          version: '0.0.1',
+          version: '0.0.2',
           url: 'https://github.com/Sivaraman1530/newAutoUpdate/archive/refs/heads/master.zip',
           })
         }
