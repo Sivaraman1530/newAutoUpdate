@@ -1,0 +1,7 @@
+{
+  "name": "newautoupdate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
